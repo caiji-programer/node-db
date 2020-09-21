@@ -1,0 +1,32 @@
+{
+  "name": "nodesql",
+  "version": "1.0.0",
+  "description": "simple database implement",
+  "main": "server.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.json",
+    "start": "ts-node -r tsconfig-paths/register src/main.ts",
+    "server": "ts-node -r tsconfig-paths/register src/server.ts",
+    "server:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register src/server.ts",
+    "test": "jest",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/jest/bin/jest.js --runInBand"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "express": "^4.17.1",
+    "typescript": "^3.9.2",
+    "yallist": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.2",
+    "@types/node": "^14.0.1",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "ts-node": "^8.10.1",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^6.1.2"
+  },
+  "author": "caiji",
+  "license": "ISC"
+}

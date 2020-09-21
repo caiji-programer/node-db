@@ -1,0 +1,14 @@
+{
+    "data": [
+        "select * from venues;",
+        "update * from venues;",
+        "DELETE FROM venues WHERE id > 500;",
+        "SELECT runoob_id, runoob_title, runoob_author, submission_date FROM runoob_tbl",
+        "SELECT * from runoob_tbl WHERE runoob_author='菜鸟教程';",
+        "SELECT runoob_id, runoob_title, runoob_author, submission_date FROM runoob_tbl ORDER BY  submission_date ASC",
+
+        "SELECT movieTitle FROM StarsIn WHERE starName IN (SELECT name FROM MovieStar WHERE birthdate LIKE '%1960')",
+        "SELECT a.runoob_id, a.runoob_author, b.runoob_count FROM runoob_tbl a, tcount_tbl b WHERE a.runoob_author = b.runoob_author;",
+        "SELECT a.runoob_id, a.runoob_author, b.runoob_count FROM runoob_tbl a INNER JOIN tcount_tbl b ON a.runoob_author = b.runoob_author;"
+    ]
+}
