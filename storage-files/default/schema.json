@@ -1,0 +1,41 @@
+{
+    "dbName": "default", 
+    "creator": "t",
+    "createTime": "2019.11.10",
+    "tables": [
+        {
+            "tableName": "t",
+            "fields": [
+                {
+                    "fieldName": "id",
+                    "fieldType": "number"
+                },
+                {
+                    "fieldName": "name",
+                    "fieldType": "string"
+                }
+            ],
+            "autoIncrement": false,
+            "primaryKey": "id"
+        },
+        {
+            "tableName": "t1",
+            "fields": [
+                {
+                    "fieldName": "id",
+                    "fieldType": "number"
+                },
+                {
+                    "fieldName": "desc",
+                    "fieldType": "string"
+                },
+                {
+                    "fieldName": "t_id",
+                    "fieldType": "number"
+                }
+            ],
+            "autoIncrement": false,
+            "primaryKey": "id"
+        }
+    ]
+}
